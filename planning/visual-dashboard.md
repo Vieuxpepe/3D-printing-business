@@ -4,6 +4,18 @@ This file is the more visual version of the agenda.
 
 It uses Mermaid diagrams, which GitHub can render directly inside Markdown files.
 
+## Weekly planning image
+
+A visual weekly planner image is stored here:
+
+```text
+assets/planning/week-planning-2026-04-28.svg
+```
+
+Preview:
+
+![Week Planning](../assets/planning/week-planning-2026-04-28.svg)
+
 ## Current week timeline
 
 ```mermaid
@@ -136,7 +148,8 @@ Use `planning/visual-agenda.md` when you want the detailed day-by-day checklist.
 
 Recommended workflow:
 
-1. Check the timeline.
-2. Check the main focus flow.
-3. Look at the current status board.
-4. Do only the next realistic step.
+1. Check the weekly planning image.
+2. Check the timeline.
+3. Check the main focus flow.
+4. Look at the current status board.
+5. Do only the next realistic step.
