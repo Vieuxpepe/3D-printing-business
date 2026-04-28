@@ -1,140 +1,227 @@
 # AI Context for This Repository
 
-This file is written for future AI assistants, coding agents, or planning agents that access this repository.
+This is the master context file for any future AI assistant, coding agent, planning agent, or automation tool that accesses this repository.
 
-Read this file first before modifying anything.
+Read this file first before editing anything.
 
-## Repository purpose
+## Core identity of the repository
 
-This repository is not a software project.
+This repository is a **Markdown-based planning hub** for a 3D printing business under the **Vieux Pepe / Vieux Pépé** brand.
 
-It is a Markdown-based planning hub for a 3D printing business under the Vieux Pepe / Vieux Pépé brand.
+It is **not** currently a software project.
 
-The main goal is to help organize:
+Do not add app code, dependencies, package files, build systems, or complex automation unless the user explicitly asks for that later.
 
-- 3D printable product ideas
+The purpose of this repo is to reduce mental clutter and help the user make better product decisions, especially around 3D printable models for MakerWorld, Cults3D, and similar marketplaces.
+
+## What this repo should help with
+
+Use this repository to organize:
+
+- raw 3D printable product ideas
 - active model projects
 - weekly and daily planning
+- visual agenda planning
 - MakerWorld and Cults3D release preparation
-- customer feedback
+- customer feedback and complaints
 - product description templates
-- future business opportunities
-
-Do not turn this repository into an app unless the user explicitly asks for that later.
+- future opportunities and product families
+- lessons learned from models that were too complicated, fragile, or unclear
 
 ## User context
 
-The user creates 3D printable models and publishes/sells them on platforms like MakerWorld and Cults3D.
+The user creates 3D printable models and publishes/sells them online.
 
 Important current context:
 
 - Knight and fantasy models are among the user's best sellers.
-- The user is considering wild animal models as a possible future direction.
-- The user recently spent a lot of time on a complex articulated modular dragon stand concept, but felt it was too complicated and did not work as well as expected.
-- The user is interested in a simpler and more practical miniature transport/storage organizer idea.
-- A previous model sold somewhat better, but customers complained about a screw mechanism not working, even though it worked on the user's printer.
-- The user recently finished an exhausting end-of-semester rush for mechanical engineering final exams and may need a lighter, more motivating project direction for a short while.
+- The user is considering wild animal models as a future category.
+- The user recently spent about two weeks on a complex articulated modular dragon stand concept, but felt it was too complicated and did not work as clearly as expected.
+- The user is interested in a simpler, sleeker, more practical miniature transport/storage organizer.
+- A previous model sold somewhat better, but some customers complained that a screw mechanism did not work, even though it worked on the user's printer.
+- The user recently finished an exhausting end-of-semester rush for mechanical engineering final exams, so planning should respect energy and recovery.
+- The user wants help organizing ideas, writing agendas, choosing what to work on, and turning messy thoughts into clear product plans.
 
-Tone preference:
+## Tone and collaboration style
 
-- Be practical, encouraging, and clear.
-- Do not overcomplicate things.
-- Help the user regain momentum without pushing huge projects too aggressively.
-- Prefer direct, useful recommendations.
+When helping the user through this repository:
+
+- Be practical, encouraging, clear, and direct.
+- Be a little enthusiastic, but not fake or corporate.
+- Avoid overwhelming the user with too many directions at once.
+- Prefer one strong next action over a huge list.
+- Respect that the user may be tired after school workload.
+- Help rebuild momentum with manageable projects.
+- Use Markdown checklists and clean sections.
+- Avoid em dashes and unnatural wording.
 
 ## Current strategic direction
 
-The repository currently prioritizes practical, printable models that are useful, visually appealing, and not overly complicated to produce.
+The repo currently prioritizes practical, printable models that are:
 
-Main product directions:
+- useful or strongly appealing
+- easy to understand from a thumbnail
+- reliable to print
+- not overly complicated to design
+- not dependent on extremely tight tolerances
+- able to become product families
+- compatible with MakerWorld/Cults3D listing strategy
 
-1. Miniature transport and storage organizers
-2. Knight and fantasy miniature series
-3. Wild animal models
-4. Practical gaming accessories
-5. Improved versions of previous models based on customer feedback
+Current priority order:
 
-## File map
+1. **Miniature transport and storage organizer**
+2. **Knight and fantasy miniature series**
+3. **Wild animal models**
+4. **Practical gaming accessories**
+5. **Improved versions of previous models based on customer feedback**
 
-### `README.md`
+## Current best next project
 
-General overview of the repository and how to use it.
+The **miniature transport/storage organizer** is currently the strongest practical product direction.
 
-Update this only when the overall structure or purpose changes.
+Reasons:
 
-### `ideas/product-ideas.md`
+- It solves a clear real-world problem.
+- It can be made simpler and sleeker than the previous complicated dragon stand concept.
+- It can become a product family.
+- It can use lessons learned from screw/tolerance complaints.
+- It is practical enough to build momentum without needing an overly ambitious sculpt.
 
-Main idea bank.
+Recommended first step:
 
-Use this for:
+Create a very simple version 1 prototype, likely a tray or compact case for common miniature base sizes, before attempting a full modular system.
 
-- raw product ideas
-- grouped ideas by priority
-- new model concepts
+## Main file map
+
+### Top-level files
+
+#### `README.md`
+
+Public-facing overview of the repository.
+
+Use it to explain:
+
+- what the repo is for
+- the main folder structure
+- the business planning workflow
+- guiding principles
+
+Update this only when the overall structure or workflow changes.
+
+#### `AI_CONTEXT.md`
+
+This master file.
+
+Use it to brief future AI agents quickly.
+
+Update this when:
+
+- the user's main direction changes
+- new rules or workflows are created
+- new major files are added
+- current priorities change significantly
+
+### Ideas folder
+
+#### `ideas/product-ideas.md`
+
+The main idea bank.
+
+Use it for:
+
+- raw ideas
+- priority grouping
 - possible product families
+- early-stage product concepts
+- idea scoring
 
 When the user mentions a new idea, this is usually the first file to update.
 
-### `ideas/future-opportunities.md`
+#### `ideas/future-opportunities.md`
 
-Longer-term opportunities that are interesting but not the immediate focus.
+Longer-term opportunities and expansion paths.
 
-Use this for:
+Use it for:
 
-- future product categories
-- branding ideas
 - marketplace strategy
-- expansion paths
+- branding ideas
+- future product categories
 - experiments to revisit later
+- collection strategy
 
-### `ideas/rejected-or-paused-ideas.md`
+#### `ideas/rejected-or-paused-ideas.md`
 
-Ideas that are not worth pursuing right now.
+Ideas that are not currently worth pursuing.
 
-Use this for:
+Use it for:
 
-- ideas that are too complicated
-- ideas that caused frustration
-- ideas with unclear value
-- ideas that are too generic
-- lessons learned from paused concepts
+- ideas that were too complicated
+- ideas that were too fragile
+- ideas that had unclear value
+- ideas that were too generic
+- lessons learned from paused projects
 
 Do not delete paused ideas unless the user explicitly asks. They are useful for decision-making.
 
-### `planning/weekly-agenda.md`
+### Planning folder
+
+#### `planning/weekly-agenda.md`
 
 Weekly planning file.
 
-Use this to create or update the week's priorities, focus areas, and end-of-week review.
+Use it to define:
 
-Keep it realistic. The user values progress, but may be recovering from intense school workload.
+- weekly focus
+- 1 to 3 priorities
+- small action steps
+- optional tasks
+- end-of-week review
 
-### `planning/daily-notes.md`
+Keep it realistic.
 
-Quick capture space for daily thoughts.
+#### `planning/daily-notes.md`
 
-Use this for messy notes, rough ideas, and short-term reminders. Later, organize important items into the correct files.
+Quick capture file.
 
-### `planning/priorities.md`
+Use it for:
 
-Current priority ranking.
+- messy notes
+- rough thoughts
+- quick reminders
+- things to organize later
 
-Use this when the user asks what to work on next or when priorities change.
+#### `planning/priorities.md`
 
-Current top priority:
+Current ranking of what matters most.
 
-1. Miniature transport and storage organizer
-2. Knight and fantasy miniature series
-3. Wild animal models
-4. Practical gaming accessories
+Use it when the user asks:
 
-### `products/active-projects.md`
+- what should I work on next?
+- which idea is strongest?
+- should I pause this?
+- how should I prioritize my 3D modeling time?
 
-Tracks projects that are currently active or seriously considered.
+#### `planning/visual-agenda.md`
 
-Use this when an idea becomes more concrete than a simple brainstorm.
+A more visual, board-style agenda that can be edited in Markdown.
 
-Status labels used here:
+Use it for:
+
+- Now / Next / Later planning
+- weekly focus blocks
+- small task cards
+- energy-aware workload planning
+- quick status overview
+
+This is the recommended agenda format for the user because it is easy for an AI to modify and easy for the user to read on GitHub.
+
+### Products folder
+
+#### `products/active-projects.md`
+
+Tracks projects that are actively being considered or worked on.
+
+Status labels:
 
 - Idea
 - Planning
@@ -144,25 +231,26 @@ Status labels used here:
 - Released
 - Paused
 
-### `products/miniature-transport-organizer.md`
+Use this when an idea becomes more serious than a brainstorm.
 
-Dedicated product page for the miniature transport/storage organizer concept.
+#### `products/miniature-transport-organizer.md`
 
-This is currently one of the most promising directions.
+Dedicated page for the miniature organizer concept.
 
-When working on this file, focus on:
+Focus on:
 
 - target users
 - real pain points
 - base sizes
-- simple version 1 design
+- version 1 scope
 - printability
 - tolerances
 - avoiding unreliable mechanisms
+- future product family potential
 
-### `products/knight-series.md`
+#### `products/knight-series.md`
 
-Dedicated page for knight and fantasy miniature ideas.
+Dedicated page for knight and fantasy miniature products.
 
 Important design rules:
 
@@ -172,82 +260,108 @@ Important design rules:
 - prioritize readable silhouettes
 - think about support-free or low-support printing from the start
 
-### `feedback/customer-feedback.md`
+### Feedback folder
 
-Tracks feedback, complaints, and improvement ideas from customers.
+#### `feedback/customer-feedback.md`
+
+Tracks comments, complaints, requests, and lessons from customers.
 
 Important existing feedback:
 
 - Screw mechanism complaints on a previous model.
 - Lesson: design for imperfect printers, not only the user's own printer.
 
-Use this file whenever the user mentions customer comments, reviews, complaints, or recurring marketplace issues.
+Use this whenever the user mentions customer comments, reviews, problems, or recurring marketplace issues.
 
-### `templates/product-template.md`
+### Templates folder
 
-Reusable template for planning a new product.
+#### `templates/product-template.md`
 
-Use this when creating a new dedicated product page.
+Reusable product planning template.
 
-### `templates/release-checklist.md`
+Use it when creating a new product page under `products/`.
+
+#### `templates/release-checklist.md`
 
 Checklist before publishing a model.
 
-Use this before MakerWorld/Cults3D release preparation.
+Use it before MakerWorld/Cults3D releases.
 
-### `templates/cults3d-description-template.md`
+#### `templates/cults3d-description-template.md`
 
-Template for Cults3D product descriptions.
+Template for paid or premium Cults3D listings.
 
-Use this when writing a paid listing or premium model description.
+#### `templates/makerworld-description-template.md`
 
-### `templates/makerworld-description-template.md`
+Template for MakerWorld listings, print profiles, and download-focused releases.
 
-Template for MakerWorld descriptions.
+#### `templates/visual-agenda-template.md`
 
-Use this when writing free/profile-building listings, print profile notes, or download-focused descriptions.
+Reusable board-style planning template.
 
-## How to update this repository
+Use it to create or refresh `planning/visual-agenda.md`.
 
-When the user gives a new idea:
+## How future AI should update the repo
 
-1. Add the rough idea to `ideas/product-ideas.md`.
-2. If promising, add or update a product page under `products/`.
-3. If it changes focus, update `planning/priorities.md`.
-4. If it becomes immediate work, update `products/active-projects.md`.
+### When the user gives a new product idea
 
-When the user mentions customer feedback:
+1. Add the idea to `ideas/product-ideas.md`.
+2. Give it a rough priority: High, Medium, Low, or Paused.
+3. If it is promising, create or update a product page under `products/`.
+4. If it affects current direction, update `planning/priorities.md`.
+5. If it becomes immediate work, update `products/active-projects.md` and `planning/visual-agenda.md`.
+
+### When the user mentions customer feedback
 
 1. Add it to `feedback/customer-feedback.md`.
-2. Identify the product affected.
-3. Add possible causes and fixes.
-4. If urgent, update the relevant product file.
+2. Identify the affected product.
+3. Summarize the problem clearly.
+4. Add possible causes.
+5. Add possible fixes.
+6. If urgent, update the related product page and release checklist.
 
-When the user asks what to work on next:
+### When the user asks what to work on next
 
 1. Read `planning/priorities.md`.
 2. Check `products/active-projects.md`.
-3. Recommend one clear next action, not a huge list.
+3. Check `planning/visual-agenda.md`.
+4. Recommend one primary next action and one optional secondary action.
+5. Avoid suggesting five new projects at once.
 
-When the user is preparing a model release:
+### When the user wants an agenda
+
+Use `planning/visual-agenda.md` as the main agenda.
+
+Recommended format:
+
+- Week focus
+- Now / Next / Later board
+- Energy-aware task blocks
+- Product pipeline cards
+- End-of-day reset
+- Decisions needed
+
+### When the user is preparing a model release
 
 1. Use `templates/release-checklist.md`.
-2. Use either the MakerWorld or Cults3D description template.
-3. Update the product file with release status.
-4. Add feedback follow-up after release.
+2. Use `templates/makerworld-description-template.md` or `templates/cults3d-description-template.md`.
+3. Update the relevant product page.
+4. Add post-release feedback tracking.
 
 ## Product decision principles
 
-Prefer product ideas that satisfy most of these:
+Prefer ideas that satisfy most of these:
 
 - solves a real problem
-- easy to understand from the thumbnail
+- easy to understand from thumbnail
 - reliable to print
 - not dependent on tight tolerances
 - not too fragile
 - not too generic
 - reasonable to finish in a short time
 - strong enough to become a product family
+- easy to explain in a product listing
+- likely to produce useful customer feedback
 
 Avoid or pause ideas that:
 
@@ -257,53 +371,39 @@ Avoid or pause ideas that:
 - are hard to explain visually
 - are too easy for anyone to copy without a unique angle
 - create likely customer complaints
+- need too much testing before proving the concept
 
-## Current best next project
+## Visual agenda recommendation
 
-The miniature transport/storage organizer is currently the strongest practical product direction.
+For this repo, the best visual agenda format is a **Markdown Kanban + weekly focus board**.
 
 Reason:
 
-- It solves a clear problem.
-- It can be simpler and sleeker than previous complicated concepts.
-- It can become a product family.
-- It can use lessons learned from screw/tolerance complaints.
+- GitHub displays it cleanly.
+- AI assistants can edit it easily.
+- It does not require external software.
+- It works well on mobile.
+- It keeps the user focused without becoming a heavy project management system.
 
-Recommended first step:
+Recommended columns:
 
-Create a very simple version 1 prototype, likely a tray or compact case for common miniature base sizes, before attempting a modular full system.
+| Now | Next | Later | Waiting / Feedback |
+|---|---|---|---|
+| The 1 to 3 things that matter now | What comes after | Ideas to keep visible | Things blocked by testing, comments, or decisions |
 
-## Writing style for future AI updates
-
-Use Markdown.
-
-Keep updates clean and practical.
-
-Do not write giant walls of text unless the user asks for a deep analysis.
-
-Prefer:
-
-- short summaries
-- checklists
-- clear next actions
-- product-focused reasoning
-- realistic workload planning
-
-Avoid:
-
-- vague motivational filler
-- overly corporate language
-- turning planning files into bloated documents
-- adding code or dependencies unless explicitly requested
+Use `planning/visual-agenda.md` for the live agenda and `templates/visual-agenda-template.md` as the reusable template.
 
 ## Important reminder
 
-This repository is meant to reduce mental clutter and help the user make better product decisions.
+This repository should make the user's work easier, not heavier.
 
 When in doubt, organize information into:
 
 1. ideas
 2. priorities
 3. active projects
-4. feedback
-5. release preparation
+4. visual agenda
+5. customer feedback
+6. release preparation
+
+The best AI help here is not just writing more text. It is reducing confusion, choosing the next useful step, and keeping the user's product direction realistic.
