@@ -2,7 +2,7 @@
 
 A simple Markdown-based planning hub for the **Vieux Pepe / Vieux Pépé** 3D printing business.
 
-This repository is designed to organize product ideas, active model projects, customer feedback, release preparation, and weekly planning without becoming a complicated software project.
+This repository is designed to organize product ideas, active model projects, product catalog entries, customer feedback, release preparation, and weekly planning without becoming a complicated software project.
 
 ## What this repo is for
 
@@ -10,6 +10,8 @@ Use this repository to track and improve:
 
 - 3D printable product ideas
 - active design projects
+- product catalog entries
+- MakerWorld descriptions and tags
 - weekly and daily agenda planning
 - visual task planning
 - customer feedback and complaints
@@ -50,29 +52,62 @@ Do not worry about making them perfect right away.
 
 ### 2. Promote promising ideas
 
-When an idea becomes serious, move it into:
+When an idea becomes serious, track it in:
 
 ```text
 products/active-projects.md
 ```
 
-Or create a dedicated product page under:
+Then create a product catalog entry under:
 
 ```text
-products/
+product-catalog/
 ```
-
-### 3. Plan the week visually
 
 Use:
 
 ```text
+templates/product-catalog-entry-template.md
+```
+
+### 3. Keep one product record per product
+
+Every serious product should eventually have its own Markdown file in:
+
+```text
+product-catalog/
+```
+
+Each product record should include:
+
+- product concept
+- status
+- target users
+- problem solved
+- design notes
+- print settings
+- included files
+- MakerWorld title
+- MakerWorld description
+- MakerWorld print profile notes
+- exactly 50 MakerWorld tags when possible
+- Cults3D listing notes if useful
+- customer feedback
+- version history
+- next actions
+
+### 4. Plan the week visually
+
+Use:
+
+```text
+planning/visual-dashboard.md
 planning/visual-agenda.md
 ```
 
-This file acts like a simple Markdown Kanban board with Now / Next / Later sections.
+The dashboard gives the visual overview. The agenda gives the day-by-day checklist.
 
-### 4. Track feedback
+### 5. Track feedback
 
 When customers complain, ask questions, or request features, add it to:
 
@@ -80,25 +115,29 @@ When customers complain, ask questions, or request features, add it to:
 feedback/customer-feedback.md
 ```
 
-### 5. Prepare releases
+Also add product-specific feedback inside the matching file in:
+
+```text
+product-catalog/
+```
+
+### 6. Prepare releases
 
 Before publishing a model, use:
 
 ```text
+planning/launch-pipeline.md
 templates/release-checklist.md
 ```
 
-Then use the marketplace template that fits the release:
-
-```text
-templates/makerworld-description-template.md
-templates/cults3d-description-template.md
-```
+Then finalize the MakerWorld or Cults3D listing inside the product catalog entry.
 
 ## Repository structure
 
 ```text
 AI_CONTEXT.md
+DASHBOARD.md
+NOTIFICATION_CONTACT.md
 README.md
 
 ideas/
@@ -111,6 +150,12 @@ planning/
   daily-notes.md
   priorities.md
   visual-agenda.md
+  visual-dashboard.md
+  launch-pipeline.md
+
+product-catalog/
+  README.md
+  miniature-transport-organizer.md
 
 products/
   active-projects.md
@@ -122,6 +167,8 @@ feedback/
 
 templates/
   product-template.md
+  product-catalog-entry-template.md
+  product-scorecard.md
   release-checklist.md
   visual-agenda-template.md
   cults3d-description-template.md
@@ -132,23 +179,39 @@ templates/
 
 | File | Purpose |
 |---|---|
+| `DASHBOARD.md` | Main command center |
 | `AI_CONTEXT.md` | Master guide for future AI assistants accessing this repo |
+| `NOTIFICATION_CONTACT.md` | Private notification instructions |
+| `product-catalog/README.md` | Product catalog rules and index |
+| `product-catalog/miniature-transport-organizer.md` | First complete product record |
+| `templates/product-catalog-entry-template.md` | Template for every future product record |
 | `ideas/product-ideas.md` | Main idea bank |
 | `ideas/future-opportunities.md` | Longer-term opportunities and expansion ideas |
 | `ideas/rejected-or-paused-ideas.md` | Paused ideas and lessons learned |
+| `planning/visual-dashboard.md` | Mermaid visual overview |
+| `planning/visual-agenda.md` | Day-by-day agenda and checklist |
+| `planning/launch-pipeline.md` | Product launch process |
 | `planning/weekly-agenda.md` | Weekly plan and review |
 | `planning/daily-notes.md` | Messy daily capture notes |
 | `planning/priorities.md` | Current priority ranking |
-| `planning/visual-agenda.md` | Visual Markdown agenda / Kanban board |
 | `products/active-projects.md` | Serious current projects |
-| `products/miniature-transport-organizer.md` | Dedicated page for the miniature organizer idea |
-| `products/knight-series.md` | Dedicated page for the knight product line |
+| `products/miniature-transport-organizer.md` | Working notes for the miniature organizer idea |
+| `products/knight-series.md` | Working notes for the knight product line |
 | `feedback/customer-feedback.md` | Customer complaints, requests, and lessons |
-| `templates/product-template.md` | Template for new product pages |
+| `templates/product-template.md` | General product planning template |
+| `templates/product-scorecard.md` | Product idea scoring template |
 | `templates/release-checklist.md` | Checklist before publishing |
 | `templates/visual-agenda-template.md` | Reusable agenda template |
 | `templates/cults3d-description-template.md` | Cults3D listing template |
 | `templates/makerworld-description-template.md` | MakerWorld listing template |
+
+## Product catalog rule
+
+The `product-catalog/` folder is the long-term product memory.
+
+Use it for polished product records and marketplace-ready information.
+
+The older `products/` folder can still be used for rougher working notes, active project planning, and product family notes.
 
 ## Guiding principles
 
@@ -175,6 +238,12 @@ Avoid or pause models that:
 ## Current best next direction
 
 The strongest current practical direction is the **miniature transport and storage organizer**.
+
+Main record:
+
+```text
+product-catalog/miniature-transport-organizer.md
+```
 
 Why:
 
