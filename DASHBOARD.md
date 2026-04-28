@@ -4,6 +4,24 @@ This is the main command center for the Vieux Pepe / Vieux Pépé 3D printing bu
 
 Use this page when you want to quickly know what matters right now.
 
+## Context recovery
+
+If chat history is lost or a new AI assistant needs to understand the project, read:
+
+```text
+CONTEXT_RECOVERY.md
+```
+
+Fast recovery order:
+
+1. `PROJECT_CONTEXT.md`
+2. `DASHBOARD.md`
+3. `AI_CONTEXT.md`
+4. `planning/visual-dashboard.md`
+5. `planning/visual-agenda.md`
+6. `product-catalog/miniature-transport-organizer.md`
+7. `market-research/market-observations.md`
+
 ## Current focus
 
 **Mode:** Recovery and light planning  
@@ -24,6 +42,8 @@ Use this page when you want to quickly know what matters right now.
 
 | Need | File |
 |---|---|
+| Recover lost context | `CONTEXT_RECOVERY.md` |
+| Project overview | `PROJECT_CONTEXT.md` |
 | Visual overview | `planning/visual-dashboard.md` |
 | Day-by-day agenda | `planning/visual-agenda.md` |
 | Current priorities | `planning/priorities.md` |
@@ -145,6 +165,8 @@ A successful week is:
 
 ## Useful links inside this repo
 
+- `CONTEXT_RECOVERY.md`
+- `PROJECT_CONTEXT.md`
 - `planning/visual-dashboard.md`
 - `planning/visual-agenda.md`
 - `planning/launch-pipeline.md`
