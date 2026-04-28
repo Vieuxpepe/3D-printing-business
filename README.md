@@ -2,7 +2,7 @@
 
 A simple Markdown-based planning hub for the **Vieux Pepe / Vieux Pépé** 3D printing business.
 
-This repository is designed to organize product ideas, active model projects, product catalog entries, customer feedback, release preparation, and weekly planning without becoming a complicated software project.
+This repository is designed to organize product ideas, active model projects, product catalog entries, market observations, customer feedback, release preparation, and weekly planning without becoming a complicated software project.
 
 ## What this repo is for
 
@@ -11,6 +11,7 @@ Use this repository to track and improve:
 - 3D printable product ideas
 - active design projects
 - product catalog entries
+- market research and product analysis
 - MakerWorld descriptions and tags
 - weekly and daily agenda planning
 - visual task planning
@@ -50,7 +51,24 @@ ideas/product-ideas.md
 
 Do not worry about making them perfect right away.
 
-### 2. Promote promising ideas
+### 2. Record market observations
+
+When the user notices something about what sells, what gets downloads, what customers complain about, or what competitors are doing, store it under:
+
+```text
+market-research/
+```
+
+Use:
+
+```text
+market-research/market-observations.md
+market-research/product-analysis-log.md
+market-research/opportunity-map.md
+market-research/competitor-observations.md
+```
+
+### 3. Promote promising ideas
 
 When an idea becomes serious, track it in:
 
@@ -70,7 +88,7 @@ Use:
 templates/product-catalog-entry-template.md
 ```
 
-### 3. Keep one product record per product
+### 4. Keep one product record per product
 
 Every serious product should eventually have its own Markdown file in:
 
@@ -96,7 +114,7 @@ Each product record should include:
 - version history
 - next actions
 
-### 4. Plan the week visually
+### 5. Plan the week visually
 
 Use:
 
@@ -107,7 +125,7 @@ planning/visual-agenda.md
 
 The dashboard gives the visual overview. The agenda gives the day-by-day checklist.
 
-### 5. Track feedback
+### 6. Track feedback
 
 When customers complain, ask questions, or request features, add it to:
 
@@ -121,7 +139,7 @@ Also add product-specific feedback inside the matching file in:
 product-catalog/
 ```
 
-### 6. Prepare releases
+### 7. Prepare releases
 
 Before publishing a model, use:
 
@@ -144,6 +162,13 @@ ideas/
   product-ideas.md
   future-opportunities.md
   rejected-or-paused-ideas.md
+
+market-research/
+  README.md
+  market-observations.md
+  product-analysis-log.md
+  competitor-observations.md
+  opportunity-map.md
 
 planning/
   weekly-agenda.md
@@ -182,6 +207,11 @@ templates/
 | `DASHBOARD.md` | Main command center |
 | `AI_CONTEXT.md` | Master guide for future AI assistants accessing this repo |
 | `NOTIFICATION_CONTACT.md` | Private notification instructions |
+| `market-research/README.md` | Market research rules and file map |
+| `market-research/market-observations.md` | Running observations about trends, demand, and marketplace behavior |
+| `market-research/product-analysis-log.md` | Structured analysis of specific product ideas |
+| `market-research/opportunity-map.md` | Product category opportunities and gaps |
+| `market-research/competitor-observations.md` | Competitor patterns and notes, without copying designs |
 | `product-catalog/README.md` | Product catalog rules and index |
 | `product-catalog/miniature-transport-organizer.md` | First complete product record |
 | `templates/product-catalog-entry-template.md` | Template for every future product record |
@@ -213,6 +243,14 @@ Use it for polished product records and marketplace-ready information.
 
 The older `products/` folder can still be used for rougher working notes, active project planning, and product family notes.
 
+## Market research rule
+
+The `market-research/` folder is the long-term market memory.
+
+Use it to store observations, competitor patterns, product analysis, and opportunity maps.
+
+Separate evidence from assumptions.
+
 ## Guiding principles
 
 Prefer models that:
@@ -225,6 +263,7 @@ Prefer models that:
 - can become a product family
 - look clean and professional
 - are realistic to finish without burning out
+- have at least some market signal or useful observation supporting them
 
 Avoid or pause models that:
 
