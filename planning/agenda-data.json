@@ -1,0 +1,116 @@
+{
+  "title": "Week Planning",
+  "subtitle": "Recovery week, cleaning first, then guests, then a gentle restart",
+  "week_of": "2026-04-28",
+  "mode": "Recovery mode",
+  "status_strip": [
+    "Recovery mode",
+    "Cleaning priority",
+    "Guest block protected",
+    "Gentle restart after guests"
+  ],
+  "days": [
+    {
+      "date": "2026-04-28",
+      "day": "Tuesday",
+      "theme": "green",
+      "title": "Apartment reset, part 1",
+      "tasks": [
+        "Pick up clutter in main areas",
+        "Clear dishes and kitchen surfaces",
+        "Take out trash and recycling",
+        "Start one laundry load"
+      ],
+      "note": "Optional: 5-minute 3D planning check"
+    },
+    {
+      "date": "2026-04-29",
+      "day": "Wednesday",
+      "theme": "green",
+      "title": "Apartment reset, part 2",
+      "tasks": [
+        "Clean bathroom",
+        "Vacuum or sweep main areas",
+        "Finish laundry or bedding",
+        "Clear guest-facing surfaces"
+      ],
+      "note": "Optional: write one sentence about organizer V1"
+    },
+    {
+      "date": "2026-04-30",
+      "day": "Thursday",
+      "theme": "green",
+      "title": "Buffer + guest prep",
+      "tasks": [
+        "Finish leftover cleaning",
+        "Prepare anything needed for guests",
+        "Do a quick 10-minute reset"
+      ],
+      "note": "Optional 3D task: Decide tray vs compact case"
+    },
+    {
+      "date": "2026-05-01",
+      "day": "Friday",
+      "theme": "purple",
+      "title": "Guests / no work block",
+      "tasks": [
+        "No 3D printing business work",
+        "No GitHub planning work",
+        "Be present and enjoy the time"
+      ],
+      "note": "Protected guest block"
+    },
+    {
+      "date": "2026-05-02",
+      "day": "Saturday",
+      "theme": "purple",
+      "title": "Guests / no work block",
+      "tasks": [
+        "Keep the day free",
+        "Rest without guilt",
+        "No required planning"
+      ],
+      "note": "Protected guest block"
+    },
+    {
+      "date": "2026-05-03",
+      "day": "Sunday",
+      "theme": "purple",
+      "title": "Guests / no work block",
+      "tasks": [
+        "Keep the day free",
+        "Capture ideas only if needed",
+        "No required 3D work"
+      ],
+      "note": "Protected guest block"
+    },
+    {
+      "date": "2026-05-04",
+      "day": "Monday",
+      "theme": "blue",
+      "title": "Guest buffer / recovery",
+      "tasks": [
+        "Light reset only if needed",
+        "No required 3D work",
+        "Capture ideas later if useful"
+      ],
+      "note": "Recovery buffer"
+    }
+  ],
+  "restart": {
+    "date": "2026-05-05",
+    "day": "Tuesday",
+    "title": "Gentle restart",
+    "tasks": [
+      "Reopen the visual agenda",
+      "Choose organizer format: tray or compact case",
+      "Pick the first base size target"
+    ],
+    "optional": [
+      "Sketch 2 quick layouts",
+      "Define a tiny tolerance test piece"
+    ]
+  },
+  "weekly_rule": "Do not force a big 3D project while cleaning and hosting guests. A successful week is: apartment cleaned enough, guest block protected, one tiny 3D decision later.",
+  "footer": "Be kind to yourself. Small steps, protected time, meaningful progress."
+}
