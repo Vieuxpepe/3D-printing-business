@@ -30,6 +30,10 @@ Use this page when you want to quickly know what matters right now.
 | Active projects | `products/active-projects.md` |
 | Product catalog | `product-catalog/README.md` |
 | Miniature organizer product record | `product-catalog/miniature-transport-organizer.md` |
+| Market observations | `market-research/market-observations.md` |
+| Product analysis log | `market-research/product-analysis-log.md` |
+| Opportunity map | `market-research/opportunity-map.md` |
+| Competitor observations | `market-research/competitor-observations.md` |
 | New product catalog entry | `templates/product-catalog-entry-template.md` |
 | New product planning | `templates/product-template.md` |
 | Product scoring | `templates/product-scorecard.md` |
@@ -66,6 +70,23 @@ Use this template:
 ```text
 templates/product-catalog-entry-template.md
 ```
+
+## Market research rule
+
+Product ideas and marketplace observations should be stored in:
+
+```text
+market-research/
+```
+
+Use this section to separate actual market observations from assumptions.
+
+Main files:
+
+- `market-research/market-observations.md` for general trends and lessons.
+- `market-research/product-analysis-log.md` for structured product analysis.
+- `market-research/opportunity-map.md` for promising categories and product gaps.
+- `market-research/competitor-observations.md` for competitor patterns, without copying designs.
 
 ## Current best next product
 
@@ -108,6 +129,7 @@ Before starting a model, ask:
 - [ ] Does it avoid fragile details and tight tolerances?
 - [ ] Can it be finished without becoming a two-week monster project?
 - [ ] Can it become a product family or collection?
+- [ ] Is there any market signal or observation supporting it?
 
 If the answer is mostly no, pause it.
 
@@ -128,6 +150,10 @@ A successful week is:
 - `planning/launch-pipeline.md`
 - `product-catalog/README.md`
 - `product-catalog/miniature-transport-organizer.md`
+- `market-research/README.md`
+- `market-research/market-observations.md`
+- `market-research/product-analysis-log.md`
+- `market-research/opportunity-map.md`
 - `templates/product-catalog-entry-template.md`
 - `templates/product-scorecard.md`
 - `feedback/customer-feedback.md`
