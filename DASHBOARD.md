@@ -28,6 +28,9 @@ Use this page when you want to quickly know what matters right now.
 | Day-by-day agenda | `planning/visual-agenda.md` |
 | Current priorities | `planning/priorities.md` |
 | Active projects | `products/active-projects.md` |
+| Product catalog | `product-catalog/README.md` |
+| Miniature organizer product record | `product-catalog/miniature-transport-organizer.md` |
+| New product catalog entry | `templates/product-catalog-entry-template.md` |
 | New product planning | `templates/product-template.md` |
 | Product scoring | `templates/product-scorecard.md` |
 | Release planning | `planning/launch-pipeline.md` |
@@ -35,9 +38,44 @@ Use this page when you want to quickly know what matters right now.
 | Notification rules | `NOTIFICATION_CONTACT.md` |
 | AI instructions | `AI_CONTEXT.md` |
 
+## Product catalog rule
+
+Every serious product should eventually have one Markdown file in:
+
+```text
+product-catalog/
+```
+
+That file should store:
+
+- the product description
+- product status
+- design notes
+- print settings
+- MakerWorld title
+- MakerWorld description
+- MakerWorld print profile notes
+- 50 MakerWorld tags
+- Cults3D listing notes if useful
+- feedback
+- version history
+- next actions
+
+Use this template:
+
+```text
+templates/product-catalog-entry-template.md
+```
+
 ## Current best next product
 
 ### Miniature transport and storage organizer
+
+Product file:
+
+```text
+product-catalog/miniature-transport-organizer.md
+```
 
 Why this is currently the best direction:
 
@@ -88,6 +126,8 @@ A successful week is:
 - `planning/visual-dashboard.md`
 - `planning/visual-agenda.md`
 - `planning/launch-pipeline.md`
+- `product-catalog/README.md`
+- `product-catalog/miniature-transport-organizer.md`
+- `templates/product-catalog-entry-template.md`
 - `templates/product-scorecard.md`
-- `products/miniature-transport-organizer.md`
 - `feedback/customer-feedback.md`
