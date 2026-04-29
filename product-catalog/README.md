@@ -51,7 +51,23 @@ Use one of these labels:
 
 | Product | Status | Platform | Next action | File |
 |---|---|---|---|---|
+| Female warrior miniature | Listing Prep | MakerWorld | Take photos, choose thumbnail, publish | `female-warrior-miniature.md` |
+| Knight miniature support improvement | Fixes | MakerWorld | Improve support removal and test updated version | `knight-miniature-support-improvement.md` |
 | Miniature transport organizer | Planning | MakerWorld / Cults3D | Decide tray vs compact case | `miniature-transport-organizer.md` |
+
+## Current near-release product
+
+The female warrior miniature is the closest product to publication. The model is already ready. Remaining work is listing preparation:
+
+- photos
+- thumbnail selection
+- MakerWorld description review
+- 50 tags
+- final upload
+
+## Current improvement product
+
+The knight miniature is currently being improved for support removal and print reliability. This should feed lessons into future knight/fantasy miniature releases.
 
 ## How to use this folder
 
