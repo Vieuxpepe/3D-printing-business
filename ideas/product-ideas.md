@@ -2,12 +2,21 @@
 
 This file is for capturing raw and organized 3D printing product ideas.
 
+Use this file for ideas that are **not active products yet**.
+
+When an idea becomes serious enough to model, test, or prepare for publishing, it can be expanded into a full record in:
+
+```text
+product-catalog/
+```
+
 ## Priority system
 
 - **High**: worth exploring soon
 - **Medium**: promising, but needs validation
 - **Low**: interesting, but not urgent
 - **Paused**: not worth doing right now
+- **Stored for later**: keep the idea, but do not treat it as active
 
 ## High priority ideas
 
@@ -64,6 +73,41 @@ Possible directions:
 - eagles
 - fantasy-compatible animal companions
 
+### Long-reach utility grabber pliers
+
+**Status:** stored for later  
+**Priority:** Medium potential, not active right now  
+**Expanded notes:** `product-catalog/long-reach-utility-grabber-pliers.md`
+
+**Core idea:** a robust, 3D-printable long-reach utility grabber with blunt-nose jaws. It should be positioned as a general light-duty utility grabber first, not only as a shower-drain hair extractor.
+
+Why it might be promising:
+
+- practical household/tool use
+- easy to explain visually
+- useful for 3D printer cleanup
+- could print flat with no assembly
+- avoids screws and tight tolerances if designed as a one-piece spring tweezer-style tool
+- could become a small product family with multiple jaw types
+
+Important positioning:
+
+- general long-reach utility grabber first
+- shower-drain hair removal is only one use case
+- not a replacement for metal needle-nose pliers
+- light-duty tool only
+
+Possible V1 direction:
+
+- one-piece spring tweezer-style body
+- robust blunt jaws
+- inner serrations
+- small hook notch or V-notch
+- PETG recommended
+- print flat on the bed
+
+Do not activate this idea unless the user explicitly wants to prototype it.
+
 ## Low priority ideas
 
 ### Practical gaming accessories
@@ -82,3 +126,4 @@ Possible directions:
 - If a mechanism creates customer complaints, simplify it.
 - A simpler, cleaner design can outperform a complex one if it solves the problem better.
 - Print reliability should be treated as part of the product, not an afterthought.
+- Store ideas safely, but do not let every idea become an active product before it is validated.
