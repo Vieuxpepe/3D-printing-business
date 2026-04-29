@@ -206,10 +206,30 @@ Exit condition:
 
 | Product | Stage | Next action | Notes |
 |---|---|---|---|
-| Miniature transport organizer | Idea / Score | Use scorecard and decide tray vs compact case | Strongest current direction |
-| Knight series | Idea | Choose next knight concept | Proven seller category |
+| Female warrior miniature | Photos / Description / Upload | Take photos, pick thumbnail, publish on MakerWorld | Closest product to release |
+| Knight miniature support improvement | Fixes / Test Print | Improve support removal, test print, update MakerWorld if better | Existing model has marketplace signal |
+| Miniature transport organizer | Idea / Score | Use scorecard and decide tray vs compact case | Strong practical direction, but not today's closest release |
+| Knight series | Active direction | Reuse support-removal lessons for future models | Proven seller category |
 | Wild animals | Idea | Validate first animal concept | Later opportunity |
 | Dragon stand | Paused | Do not continue unless simplified heavily | Lesson learned from overcomplexity |
+
+## Immediate release checklist: Female warrior miniature
+
+- [ ] Take final photos.
+- [ ] Choose thumbnail.
+- [ ] Confirm print profile and supports.
+- [ ] Finalize title and description.
+- [ ] Add 50 MakerWorld tags.
+- [ ] Upload and publish.
+- [ ] Add the live link to `product-catalog/female-warrior-miniature.md`.
+
+## Immediate fix checklist: Knight miniature
+
+- [ ] Improve support-removal problem areas.
+- [ ] Test print the revised version.
+- [ ] Confirm support cleanup is easier.
+- [ ] Update listing files/profile if the improvement is confirmed.
+- [ ] Add notes to `product-catalog/knight-miniature-support-improvement.md`.
 
 ## Pipeline rules
 
@@ -218,3 +238,4 @@ Exit condition:
 - Do not create a full product family before testing one small version.
 - Do not let a cool mechanism override user reliability.
 - Do not make the model harder to print just to make it look more impressive.
+- For miniatures, support-removal quality is part of product quality.
