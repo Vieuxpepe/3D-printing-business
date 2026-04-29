@@ -19,23 +19,28 @@ Fast recovery order:
 3. `AI_CONTEXT.md`
 4. `planning/visual-dashboard.md`
 5. `planning/visual-agenda.md`
-6. `product-catalog/miniature-transport-organizer.md`
-7. `market-research/market-observations.md`
+6. `product-catalog/README.md`
+7. `product-catalog/female-warrior-miniature.md`
+8. `product-catalog/knight-miniature-support-improvement.md`
+9. `product-catalog/miniature-transport-organizer.md`
+10. `market-research/market-observations.md`
+11. `market-research/opportunity-map.md`
+12. `NOTIFICATION_CONTACT.md`, only if reminders or notifications are needed
 
 ## Current focus
 
-**Mode:** Recovery and light planning  
-**Main focus:** clean the apartment, protect the guest block, then restart gently with one small 3D printing decision.
+**Mode:** Back to active product work  
+**Main focus:** finish the near-release female warrior miniature and improve support removal on the existing knight miniature.
 
-## Current week snapshot
+## Current snapshot
 
 | Area | Status | Next action |
 |---|---|---|
-| Apartment | Active priority | Finish cleaning basics before guests |
-| Guests | Scheduled no-work block | Keep Friday to Monday free from 3D business work |
-| Miniature organizer | Best next product direction | Decide tray vs compact case after the guest block |
-| Knight series | Keep warm | Brainstorm later, not urgent this week |
-| Wild animals | Later | Validate after the current direction is clearer |
+| Female warrior miniature | Listing Prep | Take photos, choose thumbnail, publish on MakerWorld |
+| Knight miniature | Fixes | Improve support removal and test revised version |
+| Miniature organizer | Planning | Keep as strong practical product direction, but not today's closest release |
+| Knight series | Active direction | Reuse support-removal lessons for future fantasy miniatures |
+| Wild animals | Later | Validate after current miniature releases are clearer |
 | Dragon stand | Paused | Do not return unless simplified heavily |
 
 ## Open first
@@ -49,6 +54,8 @@ Fast recovery order:
 | Current priorities | `planning/priorities.md` |
 | Active projects | `products/active-projects.md` |
 | Product catalog | `product-catalog/README.md` |
+| Female warrior product record | `product-catalog/female-warrior-miniature.md` |
+| Knight support improvement record | `product-catalog/knight-miniature-support-improvement.md` |
 | Miniature organizer product record | `product-catalog/miniature-transport-organizer.md` |
 | Market observations | `market-research/market-observations.md` |
 | Product analysis log | `market-research/product-analysis-log.md` |
@@ -108,36 +115,46 @@ Main files:
 - `market-research/opportunity-map.md` for promising categories and product gaps.
 - `market-research/competitor-observations.md` for competitor patterns, without copying designs.
 
-## Current best next product
+## Current best next product action
 
-### Miniature transport and storage organizer
+### Publish the female warrior miniature
 
 Product file:
 
 ```text
-product-catalog/miniature-transport-organizer.md
+product-catalog/female-warrior-miniature.md
 ```
 
-Why this is currently the best direction:
+Why this is the best immediate action:
 
-- solves a real problem
-- can be simple and practical
-- can become a product family
-- can avoid the screw/tolerance problems from previous models
-- feels manageable after an exhausting school period
+- the model is already ready
+- the remaining work is photos and listing prep
+- it fits the user's strong fantasy miniature category
+- it can be published faster than starting a new model
 
 Best next step:
 
-> Decide whether version 1 should be a simple tray or a compact case.
+> Take clean photos of the female warrior miniature and choose the best thumbnail.
 
-## Next 3D printing decision
+## Current improvement action
 
-| Decision | Recommended choice | Why |
-|---|---|---|
-| First organizer format | Simple tray or compact case | Lower risk than a full modular system |
-| Mechanism | Avoid screws for V1 | Previous screw complaints are important feedback |
-| Style | Clean and minimal first | Easier to test and explain |
-| Scope | Small prototype | Faster validation, less burnout |
+### Improve knight miniature support removal
+
+Product file:
+
+```text
+product-catalog/knight-miniature-support-improvement.md
+```
+
+Why this matters:
+
+- knight/fantasy miniatures already have marketplace signal
+- support-removal quality affects user satisfaction
+- lessons learned here should improve future miniatures
+
+Best next step:
+
+> Finish the support-removal improvement pass and test print the revised knight.
 
 ## Quick product filter
 
@@ -153,15 +170,13 @@ Before starting a model, ask:
 
 If the answer is mostly no, pause it.
 
-## This week's rule
+## This week's practical rule
 
-Do not force a big 3D project while cleaning and hosting guests.
+Prioritize the models that are closest to value:
 
-A successful week is:
-
-1. Apartment cleaned enough.
-2. Guest block protected.
-3. One tiny 3D decision made later if energy allows.
+1. Publish the female warrior miniature.
+2. Improve the knight miniature support removal.
+3. Keep the miniature organizer warm for the next practical product push.
 
 ## Useful links inside this repo
 
@@ -171,6 +186,8 @@ A successful week is:
 - `planning/visual-agenda.md`
 - `planning/launch-pipeline.md`
 - `product-catalog/README.md`
+- `product-catalog/female-warrior-miniature.md`
+- `product-catalog/knight-miniature-support-improvement.md`
 - `product-catalog/miniature-transport-organizer.md`
 - `market-research/README.md`
 - `market-research/market-observations.md`
