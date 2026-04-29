@@ -6,9 +6,17 @@
 **Alternative name:** DrainClaw Utility Pliers  
 **Category:** Practical household tool / 3D printer cleanup tool / utility grabber  
 **Platform:** MakerWorld / Cults3D  
-**Status:** Idea / Prototype  
-**Priority:** High potential  
-**Current focus:** Refine into a robust, printable long-reach tool.
+**Status:** Idea  
+**Priority:** Interesting later idea  
+**Current focus:** Store the concept for later. This is not an active product and not already made.
+
+## Current state
+
+This is only an idea-phase product concept.
+
+It is **not** an already-made product, not modeled yet, not test printed, and not ready for listing. The purpose of this file is to preserve the concept so the user can return to it later without losing the idea.
+
+Do not treat this as a current release priority unless the user explicitly says they want to start prototyping it.
 
 ## Core concept
 
@@ -46,10 +54,10 @@ This product has several good marketplace qualities:
 - practical household use
 - useful for 3D printing cleanup
 - small material cost
-- likely fast to prototype
+- likely fast to prototype later
 - no electronics
 - no tight screw tolerance requirement
-- can be printed flat
+- can likely be printed flat
 - expandable into a small product family
 - good fit for the lesson: avoid overcomplicated mechanisms unless truly needed
 
@@ -92,7 +100,7 @@ Safer claim:
 
 > Useful for light-duty long-reach gripping, retrieving, pulling, and cleanup tasks.
 
-## Recommended V1 design
+## Recommended V1 design, when this becomes active
 
 ### One-piece spring tweezer-style plier
 
@@ -259,7 +267,7 @@ Benefits:
 
 ## Product variants
 
-This can become a small product family.
+This could become a small product family later.
 
 ### V1: Utility jaw
 
@@ -336,15 +344,15 @@ Primary keywords:
 - filament cleanup tool
 - support removal helper
 
-## Draft MakerWorld title
+## Draft MakerWorld title for later
 
 **Long-Reach Utility Grabber Pliers - 3D Printable Blunt Nose Tool**
 
-## Draft MakerWorld short description
+## Draft MakerWorld short description for later
 
 A long-reach 3D printable utility grabber with robust blunt-nose jaws. Designed for light-duty retrieving, pulling, cleanup, shower-drain hair removal, filament scraps, and awkward-space gripping.
 
-## Draft MakerWorld full description
+## Draft MakerWorld full description for later
 
 This is a long-reach utility grabber designed for practical light-duty tasks around the house, workshop, and 3D printer.
 
@@ -374,7 +382,7 @@ Print flat on the bed for the simplest and strongest result.
 
 This is a 3D printed light-duty grabber. It is not meant to replace metal needle-nose pliers for high-force mechanical work.
 
-## Possible 50 MakerWorld tags
+## Possible 50 MakerWorld tags for later
 
 1. long reach pliers
 2. utility grabber
@@ -427,7 +435,7 @@ This is a 3D printed light-duty grabber. It is not meant to replace metal needle
 49. simple tool
 50. robust grabber
 
-## Prototype checklist
+## Prototype checklist for when this becomes active
 
 - [ ] Model one-piece spring tweezer-style V1.
 - [ ] Keep jaws robust and blunt.
@@ -442,7 +450,7 @@ This is a 3D printed light-duty grabber. It is not meant to replace metal needle
 - [ ] Adjust jaw thickness and arm flex.
 - [ ] Decide if a drain-specific variant is needed.
 
-## Success criteria
+## Success criteria for future prototype
 
 The prototype is worth publishing if:
 
@@ -454,7 +462,7 @@ The prototype is worth publishing if:
 - it is easy to explain in one thumbnail
 - it does not feel like a weaker copy of metal pliers
 
-## Thumbnail idea
+## Thumbnail idea for later
 
 Show the tool reaching toward or holding a small object, with a secondary inset showing the textured jaw.
 
@@ -471,7 +479,7 @@ This should be treated as a **general utility grabber first**.
 
 Drain hair removal should be a strong use case, but not the entire identity of the product.
 
-## Next actions
+## Next actions, only if user decides to activate this idea later
 
 - [ ] Decide final V1 length.
 - [ ] Decide jaw shape: utility serrated jaw first.
@@ -484,4 +492,4 @@ Drain hair removal should be a strong use case, but not the entire identity of t
 
 | Date | Version | Notes |
 |---|---|---|
-| 2026-04-29 | Concept refined | Reframed from shower-drain hair extractor into a robust long-reach utility grabber plier concept. |
+| 2026-04-29 | Concept saved | Reframed from shower-drain hair extractor into a robust long-reach utility grabber plier concept. Stored as an idea for later, not as an active or already-made product. |
