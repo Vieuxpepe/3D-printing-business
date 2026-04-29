@@ -25,10 +25,56 @@ The `products/` folder is for active working notes. The `product-catalog/` folde
 
 ## Active project list
 
+### Female warrior miniature
+
+**Status:** Listing Prep  
+**Priority:** Very High  
+**Product catalog file:** `product-catalog/female-warrior-miniature.md`  
+**Main goal:** Publish on MakerWorld soon.
+
+Current state:
+
+- Model is ready.
+- Need photos.
+- Need final MakerWorld description.
+- Need 50 tags.
+- This is the closest product to release.
+
+Next actions:
+
+- [ ] Take clear photos of the printed model.
+- [ ] Pick the best thumbnail.
+- [ ] Review the MakerWorld title and description draft.
+- [ ] Confirm the 50 tags.
+- [ ] Upload files and publish on MakerWorld.
+- [ ] Add the live MakerWorld link after release.
+
+### Knight miniature support-removal improvement
+
+**Status:** Fixes  
+**Priority:** High  
+**Product catalog file:** `product-catalog/knight-miniature-support-improvement.md`  
+**Main goal:** Improve support removal and public print reliability for the existing knight miniature.
+
+Current state:
+
+- The knight miniature already has marketplace signal.
+- The current work is focused on support removal, not a full redesign.
+- The model should stay visually strong while becoming easier to print and clean.
+
+Next actions:
+
+- [ ] Review overhangs and support traps.
+- [ ] Improve weak support-removal areas around sword, shield, legs, and base.
+- [ ] Export updated file.
+- [ ] Test print.
+- [ ] Compare support cleanup against previous version.
+- [ ] Update MakerWorld files if the revision is confirmed better.
+
 ### Miniature transport and storage organizer
 
 **Status:** Planning  
-**Priority:** High  
+**Priority:** Medium / High  
 **Product catalog file:** `product-catalog/miniature-transport-organizer.md`  
 **Main goal:** Create a simpler, sleeker, more reliable organizer for transporting miniatures.
 
@@ -43,17 +89,16 @@ Next actions:
 
 ### Knight series continuation
 
-**Status:** Idea  
+**Status:** Active direction  
 **Priority:** High / Medium  
-**Product catalog file:** not created yet  
+**Product catalog file:** future files per model  
 **Main goal:** Continue building on a proven seller category.
 
 Next actions:
 
-- [ ] Pick the next knight concept.
-- [ ] Create a product catalog file if the concept becomes serious.
-- [ ] Make the silhouette strong and readable.
-- [ ] Make the base support the sword/cape/pose where possible.
+- [ ] Use lessons from the knight support-removal pass.
+- [ ] Keep silhouettes strong and printable.
+- [ ] Create product catalog files for serious future knight concepts.
 - [ ] Avoid details that create weak print points.
 
 ## Paused active projects
