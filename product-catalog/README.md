@@ -53,7 +53,7 @@ Use one of these labels:
 |---|---|---|---|---|
 | Female warrior miniature | Listing Prep | MakerWorld | Take photos, choose thumbnail, publish | `female-warrior-miniature.md` |
 | Knight miniature support improvement | Fixes | MakerWorld | Improve support removal and test updated version | `knight-miniature-support-improvement.md` |
-| Long-reach utility grabber pliers | Idea / Prototype | MakerWorld / Cults3D | Model one-piece spring tweezer-style V1 in PETG | `long-reach-utility-grabber-pliers.md` |
+| Long-reach utility grabber pliers | Idea | MakerWorld / Cults3D | Stored for later, do not treat as active unless user reactivates it | `long-reach-utility-grabber-pliers.md` |
 | Miniature transport organizer | Planning | MakerWorld / Cults3D | Decide tray vs compact case | `miniature-transport-organizer.md` |
 
 ## Current near-release product
@@ -70,9 +70,9 @@ The female warrior miniature is the closest product to publication. The model is
 
 The knight miniature is currently being improved for support removal and print reliability. This should feed lessons into future knight/fantasy miniature releases.
 
-## Current utility product concept
+## Stored idea concept
 
-The long-reach utility grabber pliers concept is a promising practical tool direction. It should be treated as a general long-reach blunt-nose utility grabber first, with shower-drain hair removal as one use case rather than the whole product identity.
+The long-reach utility grabber pliers concept is a promising practical tool direction, but it is currently only stored as an idea for later. It is not modeled, not test printed, not an active product, and not ready to publish.
 
 ## How to use this folder
 
