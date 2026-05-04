@@ -23,25 +23,49 @@ Fast recovery order:
 7. `product-catalog/female-warrior-miniature.md`
 8. `product-catalog/knight-miniature-support-improvement.md`
 9. `product-catalog/miniature-transport-organizer.md`
-10. `market-research/market-observations.md`
-11. `market-research/opportunity-map.md`
-12. `NOTIFICATION_CONTACT.md`, only if reminders or notifications are needed
+10. `market-research/2026-05-makerworld-posting-days-analysis.md`
+11. `market-research/market-observations.md`
+12. `market-research/opportunity-map.md`
+13. `NOTIFICATION_CONTACT.md`, only if reminders or notifications are needed
 
 ## Current focus
 
 **Mode:** Back to active product work  
 **Main focus:** finish the near-release female warrior miniature and improve support removal on the existing knight miniature.
 
+## Current posting strategy
+
+Latest analysis file:
+
+```text
+market-research/2026-05-makerworld-posting-days-analysis.md
+```
+
+Recommended MakerWorld posting rhythm:
+
+| Use case | Best day |
+|---|---|
+| Important release | Sunday |
+| Routine weekly release | Friday |
+| Conversion-focused model | Thursday |
+| Boosted flagship release | Monday |
+| Low-priority test | Tuesday or Wednesday |
+
+Practical rule:
+
+> Put the strongest upcoming miniature on Sunday unless it is a boosted flagship release, in which case Monday can be tested.
+
 ## Current snapshot
 
 | Area | Status | Next action |
 |---|---|---|
-| Female warrior miniature | Listing Prep | Take photos, choose thumbnail, publish on MakerWorld |
+| Female warrior miniature | Listing Prep | Take photos, choose thumbnail, publish on MakerWorld, preferably Sunday |
 | Knight miniature | Fixes | Improve support removal and test revised version |
 | Miniature organizer | Planning | Keep as strong practical product direction, but not today's closest release |
 | Knight series | Active direction | Reuse support-removal lessons for future fantasy miniatures |
 | Wild animals | Later | Validate after current miniature releases are clearer |
 | Dragon stand | Paused | Do not return unless simplified heavily |
+| MakerWorld posting timing | Active research | Track 24h, 72h, and 7d metrics for the next 8 to 12 comparable releases |
 
 ## Open first
 
@@ -57,6 +81,7 @@ Fast recovery order:
 | Female warrior product record | `product-catalog/female-warrior-miniature.md` |
 | Knight support improvement record | `product-catalog/knight-miniature-support-improvement.md` |
 | Miniature organizer product record | `product-catalog/miniature-transport-organizer.md` |
+| MakerWorld posting day analysis | `market-research/2026-05-makerworld-posting-days-analysis.md` |
 | Market observations | `market-research/market-observations.md` |
 | Product analysis log | `market-research/product-analysis-log.md` |
 | Opportunity map | `market-research/opportunity-map.md` |
@@ -114,6 +139,7 @@ Main files:
 - `market-research/product-analysis-log.md` for structured product analysis.
 - `market-research/opportunity-map.md` for promising categories and product gaps.
 - `market-research/competitor-observations.md` for competitor patterns, without copying designs.
+- `market-research/2026-05-makerworld-posting-days-analysis.md` for posting day strategy.
 
 ## Current best next product action
 
@@ -131,6 +157,7 @@ Why this is the best immediate action:
 - the remaining work is photos and listing prep
 - it fits the user's strong fantasy miniature category
 - it can be published faster than starting a new model
+- current posting analysis supports Sunday as the best default day for important releases
 
 Best next step:
 
@@ -174,9 +201,10 @@ If the answer is mostly no, pause it.
 
 Prioritize the models that are closest to value:
 
-1. Publish the female warrior miniature.
+1. Publish the female warrior miniature, ideally Sunday.
 2. Improve the knight miniature support removal.
 3. Keep the miniature organizer warm for the next practical product push.
+4. Track 24h, 72h, and 7d metrics after every new MakerWorld release.
 
 ## Useful links inside this repo
 
@@ -190,6 +218,7 @@ Prioritize the models that are closest to value:
 - `product-catalog/knight-miniature-support-improvement.md`
 - `product-catalog/miniature-transport-organizer.md`
 - `market-research/README.md`
+- `market-research/2026-05-makerworld-posting-days-analysis.md`
 - `market-research/market-observations.md`
 - `market-research/product-analysis-log.md`
 - `market-research/opportunity-map.md`
