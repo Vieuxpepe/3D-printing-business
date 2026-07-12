@@ -15,6 +15,7 @@ Use this folder when the user notices something about:
 - printability expectations
 - common tags and keywords
 - product opportunities
+- best posting days and publishing timing
 
 ## Main files
 
@@ -24,6 +25,8 @@ Use this folder when the user notices something about:
 | `product-analysis-log.md` | Structured analysis of specific product ideas or existing models |
 | `competitor-observations.md` | Notes about competing products, without copying protected designs |
 | `opportunity-map.md` | Promising categories and product gaps to explore |
+| `2026-04-makerworld-dnd-miniatures-market-opportunity.md` | Research note on D&D/fantasy miniature opportunities for MakerWorld |
+| `2026-05-makerworld-posting-days-analysis.md` | Analysis of the user's MakerWorld stats and recommended posting days |
 
 ## How to use this folder
 
@@ -35,6 +38,7 @@ Examples:
 - If the user wants to compare product ideas, use `product-analysis-log.md`.
 - If the user notices a competitor pattern, use `competitor-observations.md`.
 - If the user finds a possible product category, use `opportunity-map.md`.
+- If the user shares marketplace dashboard screenshots, use a dated research note.
 
 ## Important rules
 
@@ -43,6 +47,7 @@ Examples:
 - Separate evidence from assumptions.
 - Mark uncertain observations clearly.
 - Link product insights back to `product-catalog/` when relevant.
+- When analyzing posting days, separate product strength from timing effects.
 
 ## Observation format
 
